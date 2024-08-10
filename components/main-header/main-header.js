@@ -14,16 +14,16 @@ export default function MainHeader() {
             <header className={classes.header}>
                 <Link href="/" className={classes.logo}>
                     <Image src={logoImg} alt="A plate with food on it" priority></Image>
-                    Jewelry
+                    NextLevel Food
                 </Link>
 
                 <nav className={classes.nav}>
                     <ul>
                         <li>
-                            <NavLink href="/meals">Gifts</NavLink>
+                            <NavLink href="/meals">Browse Meals</NavLink>
                         </li>
                         <li>
-                            <NavLink href="/community">About Us</NavLink>
+                            <NavLink href="/community">Foodies Community</NavLink>
                         </li>
                     </ul>
                 </nav>
